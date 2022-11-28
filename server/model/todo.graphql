@@ -1,0 +1,6 @@
+type Todo {
+  title: String
+  created: String
+  content: String
+  due: String
+}

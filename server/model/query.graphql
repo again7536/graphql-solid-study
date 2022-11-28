@@ -1,0 +1,4 @@
+type Query {
+  todos(title: String): [Todo]
+  users(name: String): [User]
+}

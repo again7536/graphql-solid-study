@@ -1,0 +1,3 @@
+interface ApolloContext {}
+
+export { ApolloContext };
