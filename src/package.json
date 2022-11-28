@@ -15,6 +15,7 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "solid-apollo": "^0.0.2",
     "solid-js": "^1.5.1"
   },
   "packageManager": "yarn@3.3.0"
