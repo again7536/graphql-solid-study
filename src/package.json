@@ -16,7 +16,6 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.1",
     "@merged/solid-apollo": "^1.7.1",
     "solid-apollo": "^0.0.2",
     "solid-js": "^1.5.1"
