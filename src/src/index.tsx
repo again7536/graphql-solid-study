@@ -8,6 +8,8 @@ import { render } from "solid-js/web";
 import { Suspense } from "solid-js";
 import App from "./App";
 
+import "./style.css";
+
 const inMemoryCache = new InMemoryCache();
 
 const client = new ApolloClient({
