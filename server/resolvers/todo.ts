@@ -1,8 +1,8 @@
 import { QueryResolvers, Todo } from "../__generated__/resolvers-types";
 
 const todoData: Todo[] = [
-  { title: "hi", created: "hi", content: "hi" },
-  { title: "hi2", created: "hi2", content: "hi2" },
+  { title: "hi", due: "9:00", content: "hi" },
+  { title: "hi2", due: "10:00", content: "hi2" },
 ];
 
 const todoResolver: QueryResolvers["todos"] = (parent, args, context) => {

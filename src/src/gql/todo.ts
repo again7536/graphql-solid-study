@@ -5,6 +5,7 @@ const fetchTodos = gql`
     todos {
       title
       content
+      due
     }
   }
 `;

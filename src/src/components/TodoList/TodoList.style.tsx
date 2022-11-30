@@ -1,15 +1,34 @@
+import { flexBox } from "@/styles/mixin";
 import { css } from "@/styles/themedStitches";
 
 const TodoListStyle = css({
-  width: "300px",
-  backgroundColor: "$blue500",
-  "@sm": {
-    width: "100%",
-    backgroundColor: "$green500",
-  },
-  "@md": {
-    backgroundColor: "$gray500",
-  },
+  position: "relative",
+  width: "100%",
+});
+const TimeLineStyle = css({
+  display: "block",
+  position: "absolute",
+  left: "80px",
+  height: "100%",
+  width: "0px",
+  borderRight: "1px solid $darkblue500",
 });
 
-export { TodoListStyle };
+const TimeBlockStyle = css({
+  ...flexBox({ direction: "row", justify: "flex-start", align: "flex-start" }),
+});
+const TimeHeaderStyle = css({
+  flex: "0 0 70px",
+  margin: "$3 0",
+});
+const TimeBodyStyle = css({
+  width: "100%",
+});
+
+export {
+  TodoListStyle,
+  TimeLineStyle,
+  TimeHeaderStyle,
+  TimeBlockStyle,
+  TimeBodyStyle,
+};
