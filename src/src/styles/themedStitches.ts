@@ -19,11 +19,11 @@ const {
   },
   theme: {
     colors: {
-      gray500: "hsl(206,10%,76%)",
-      blue500: "hsl(206,100%,50%)",
-      purple500: "hsl(252,78%,60%)",
-      green500: "hsl(148,60%,60%)",
-      red500: "hsl(352,100%,62%)",
+      darkblue500: "#073B4C",
+      blue500: "#118AB2",
+      yellow500: "#FFD166",
+      green500: "#06D6A0",
+      red500: "#EF476F",
     },
     space: {
       1: "5px",
@@ -31,9 +31,11 @@ const {
       3: "15px",
     },
     fontSizes: {
-      1: "12px",
-      2: "13px",
-      3: "15px",
+      1: "12pt",
+      2: "14pt",
+      3: "16pt",
+      4: "20pt",
+      5: "24pt",
     },
     fonts: {
       untitled: "Untitled Sans, apple-system, sans-serif",
