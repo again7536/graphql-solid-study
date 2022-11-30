@@ -18,8 +18,11 @@
   "dependencies": {
     "@apollo/client": "^3.7.1",
     "@merged/solid-apollo": "^1.7.1",
+    "@stitches/core": "^1.2.8",
     "solid-apollo": "^0.0.2",
-    "solid-js": "^1.5.1"
+    "solid-js": "^1.5.1",
+    "solid-transition-group": "^0.0.12",
+    "vite-tsconfig-paths": "^3.6.0"
   },
   "packageManager": "yarn@3.3.0"
 }
