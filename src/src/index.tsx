@@ -6,9 +6,8 @@ import {
 } from "@merged/solid-apollo";
 import { render } from "solid-js/web";
 import { Suspense } from "solid-js";
-import App from "./App";
 
-import "./style.css";
+import App from "./App";
 
 const inMemoryCache = new InMemoryCache();
 
